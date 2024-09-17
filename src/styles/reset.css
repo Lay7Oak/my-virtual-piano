@@ -4,7 +4,7 @@
     
     outline: none;
     font-family: "Poppins", sans-serif;
-    box-sizing:content-box; 
+ box-sizing:content-box;
 }
 
   /* Responsive */
@@ -33,10 +33,10 @@
       
     }
 
-   .container{
-    width: 80%;
-    height: 70%;
-   }
+    /* .container{
+        width: 80%;
+        height: 70%;
+       } */
    
   }
   
