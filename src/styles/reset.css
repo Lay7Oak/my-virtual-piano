@@ -5,3 +5,41 @@
     outline: none;
     font-family: "Poppins", sans-serif;
 }
+
+  /* Responsive */
+
+
+  /* Ajuste para telas menores, em retrato */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: rotate(90deg);
+      transform-origin: center;
+      overflow: hidden; /* Evita a rolagem da página */
+    }
+  
+    .container {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+  /* Ajuste para modo paisagem */
+  @media only screen and (max-width: 768px) and (orientation: landscape) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: none; /* Nenhuma rotação necessária no modo paisagem */
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    .container {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  

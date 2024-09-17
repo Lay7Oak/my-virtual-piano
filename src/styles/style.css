@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #e3f2fd;
+    background-color: #d1dde6;
     color: #fff;
 }
 
@@ -130,3 +130,6 @@ background:linear-gradient(#a2fc07, #fcfcfc);
     display: none;
 
   }
+
+
+  
