@@ -1,24 +1,17 @@
-*{
+ *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     outline: none;
     font-family: "Poppins", sans-serif;
-}
-
-body{
-        display: flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center;     /* Centraliza verticalmente */
-        min-height: 100vh;       /* Ocupa a altura total da viewport */
-        margin: 0;               /* Remove margens padrão */
+    box-sizing:content-box; 
 }
 
   /* Responsive */
 
 
   /* Ajuste para telas menores, em retrato */
-@media only screen and (max-width: 768px) /*and (orientation: portrait) */{
+@media only screen and (max-width: 768px) and (orientation: portrait) {
     body {
       display: flex;
       justify-content: center;
@@ -27,35 +20,23 @@ body{
       transform-origin: center;
       overflow: hidden; /* Evita a rolagem da página */
     }
-  
-    /* .container {
-      width: 100vw;
-      height: auto;
-    } */
+   
+    
   }
   
   /* Ajuste para modo paisagem */
-  @media only screen and (max-width: 768px) /* and (orientation: landscape) */{
+  @media only screen and (max-height: 360px) and (orientation: landscape) {
     body {
-      
       display: flex;
       justify-content: center;
-      align-items: center;
-      /*transform: none; /* Nenhuma rotação necessária no modo paisagem */
-      transform: rotate(90deg);
-      width: 100vw;
-      height: 100vh; 
+      align-items: center;/* Nenhuma rotação necessária no modo paisagem */
+      
     }
-  
-     .container {
-      /* margin: 7%;
-      max-width: 100%;
-      max-height: 100%; */
 
-      width: 100vw;
-      height: auto; 
-    } 
-
+   .container{
+    width: 80%;
+    height: 70%;
+   }
    
   }
   
