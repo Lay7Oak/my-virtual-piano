@@ -6,6 +6,14 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;     /* Centraliza verticalmente */
+        min-height: 100vh;       /* Ocupa a altura total da viewport */
+        margin: 0;               /* Remove margens padrão */
+}
+
   /* Responsive */
 
 
@@ -20,26 +28,33 @@
       overflow: hidden; /* Evita a rolagem da página */
     }
   
-    .container {
+    /* .container {
       width: 100vw;
       height: auto;
-    }
+    } */
   }
   
   /* Ajuste para modo paisagem */
   @media only screen and (max-width: 768px) and (orientation: landscape) {
     body {
+      
       display: flex;
       justify-content: center;
       align-items: center;
       transform: none; /* Nenhuma rotação necessária no modo paisagem */
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw;
+      height: 100vh; */
     }
   
-    .container {
-      width: 100vw;
-      height: auto;
-    }
+     .container {
+      margin: 7%;
+      max-width: 100%;
+      max-height: 100%;
+
+      /* width: 100vw;
+      height: auto; */
+    } 
+
+   
   }
   
