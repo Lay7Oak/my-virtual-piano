@@ -16,27 +16,42 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: rotate(90deg);
+      
       transform-origin: center;
       overflow: hidden; /* Evita a rolagem da página */
     }
+
+    .container {
+      transform: rotate(90deg);
+      
+      width: 35rem;
+      height: auto; 
+  }
    
-    
+  
   }
   
   /* Ajuste para modo paisagem */
-  @media only screen and (max-height: 360px) and (orientation: landscape) {
+  @media only screen and (max-height: 375px) and (orientation: landscape) {
     body {
       display: flex;
       justify-content: center;
-      align-items: center;/* Nenhuma rotação necessária no modo paisagem */
-      
+      align-items: center;
+     
     }
 
-    /* .container{
-        width: 80%;
-        height: 70%;
-       } */
-   
+    .containerDoContainer{
+
+      display: flex;
+      justify-content:center;
+      align-items: center;
+     
+      max-width: 80%;
+      max-height: 80%;
+      padding: 7%; 
+     
+
   }
-  
+
+    
+  }
