@@ -8,5 +8,5 @@ a manipulação do DOM e técnicas como tratamento de elementos HTML, uso de tog
 adição e remoção de classes dinamicamente, além de estilização de componentes padrão e
 conceitos relacionados a pseudo-elementos.
 
-# Melhoria aplicada: 
+## Melhoria aplicada: 
 - Versão para telas menores
